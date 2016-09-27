@@ -1,4 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open%20Sans);
+
 $mobile-only: "only screen and (max-width : 768px)";
+
+body {
+  margin-bottom: 0;
+
+  @media #{$mobile-only} {
+    margin: 0;
+  }
+}
 
 #wrapper {
   background-color: #F6F6EF;
@@ -7,7 +17,7 @@ $mobile-only: "only screen and (max-width : 768px)";
   min-height: 80px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   height: 100%;
 
    @media #{$mobile-only} {

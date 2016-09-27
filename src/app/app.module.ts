@@ -4,8 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { DomainPipe } from './domain.pipe';
-import { MomentModule } from 'angular2-moment';
 import { HeaderComponent } from './header/header.component';
 import { StoriesComponent } from './stories/stories.component';
 import { FooterComponent } from './footer/footer.component';
@@ -19,14 +17,12 @@ import { HackerNewsAPIService } from './hackernews-api.service';
     HeaderComponent,
     StoriesComponent,
     FooterComponent,
-    ItemComponent,
-    DomainPipe
+    ItemComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    MomentModule
+    HttpModule
   ],
   providers: [HackerNewsAPIService],
   bootstrap: [AppComponent]
