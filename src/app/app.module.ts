@@ -12,6 +12,7 @@ import { ItemComponent } from './item/item.component';
 import { ItemCommentsComponent } from './item-comments/item-comments.component';
 import { CommentTreeComponent } from './comment-tree/comment-tree.component';
 import { CommentComponent } from './comment/comment.component';
+import { UserComponent } from './user/user.component';
 
 import { HackerNewsAPIService } from './hackernews-api.service';
 
@@ -24,7 +25,8 @@ import { HackerNewsAPIService } from './hackernews-api.service';
     ItemComponent,
     ItemCommentsComponent,
     CommentTreeComponent,
-    CommentComponent
+    CommentComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
